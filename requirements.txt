@@ -1,0 +1,32 @@
+# Core Ray packages
+ray[rllib]==2.9.0
+ray[tune]==2.9.0
+ray[serve]==2.9.0
+
+# Deep learning framework
+torch>=2.0.0
+
+# RL environments
+gymnasium>=0.29.0
+
+# Data science
+numpy>=1.24.0
+pandas>=2.0.0
+matplotlib>=3.7.0
+scipy>=1.10.0
+
+# Jupyter
+jupyter>=1.0.0
+jupyterlab>=4.0.0
+ipywidgets>=8.0.0
+
+# Monitoring
+tensorboard>=2.14.0
+
+# Hyperparameter tuning
+optuna>=3.3.0
+hyperopt>=0.2.7
+
+# Utilities
+tqdm>=4.65.0
+pyyaml>=6.0

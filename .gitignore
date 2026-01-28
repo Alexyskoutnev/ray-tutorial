@@ -1,0 +1,109 @@
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# UV
+.uv/
+uv.lock
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+.jupyter/
+
+# Ray
+ray_results/
+~/ray_results/
+/tmp/ray/
+*.ray
+
+# Model checkpoints
+checkpoints/
+*.ckpt
+*.pt
+*.pth
+*.h5
+*.pkl
+
+# TensorBoard
+logs/
+runs/
+tensorboard/
+events.out.tfevents.*
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# Environment variables
+.env
+.env.local
+*.env
+
+# Secrets
+*.pem
+*.key
+credentials.json
+secrets.json
+
+# Large files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Data
+data/
+datasets/
+*.csv
+*.parquet
+!tutorials/**/*.csv
+
+# Logs
+*.log
